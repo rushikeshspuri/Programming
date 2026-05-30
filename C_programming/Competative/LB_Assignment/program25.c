@@ -1,0 +1,51 @@
+///////////////////////////////////////////////////////
+//
+//  Include required header files
+//
+///////////////////////////////////////////////////////
+#include<stdio.h>
+///////////////////////////////////////////////////////
+//
+//  Function name : DisplayMultiple
+//  Input :         Integer
+//  Output :        void
+//  Description :   Accept N & Display 5 Multiple
+//  Date :          28/05/206
+//  Author :        Rushikesh Puri
+//
+///////////////////////////////////////////////////////
+void DisplayMultiples(int iNo)
+{
+    int iCnt = 0;
+
+    for (iCnt = 1; iCnt <= 5; iCnt ++)
+    {
+        printf("%d\t",iCnt * iNo);
+    }
+}
+
+///////////////////////////////////////////////////////
+//
+//  Application to Accept N & Display 5 Multiple
+//
+///////////////////////////////////////////////////////
+int main ()
+{
+    int iValue = 0;
+
+    printf("Enter number\n");
+    scanf("%d",&iValue);
+
+    DisplayMultiples(iValue);
+
+    return 0;
+}
+
+///////////////////////////////////////////////////////
+//
+//  Input :     4
+//  Output :    4 8 12 16 20
+//
+///////////////////////////////////////////////////////
+
+

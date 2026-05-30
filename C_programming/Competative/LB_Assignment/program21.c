@@ -1,0 +1,53 @@
+///////////////////////////////////////////////////////
+//
+//  Include required header files
+//
+///////////////////////////////////////////////////////
+#include<stdio.h>
+///////////////////////////////////////////////////////
+//
+//  Function name : DisplayPattern
+//  Input :         int   
+//  Output :        void
+//  Description :   accept no from user and print $  *
+//  Date :          27/05/2026
+//  Author :        Rushikesh Puri
+//
+///////////////////////////////////////////////////////
+void DisplayPattern(int iNo)
+{
+    int iCnt = 0;
+
+    for(iCnt = 1; iCnt <= iNo; iCnt++)
+    {
+        printf("$\t""*\t");
+
+    }
+
+}
+
+///////////////////////////////////////////////////////
+//
+//  Application to accept no from user and print $  *
+//
+///////////////////////////////////////////////////////
+
+int main ()
+{
+    int iValue = 0;
+
+    printf("Enter number\n");
+    scanf("%d",&iValue);
+
+    DisplayPattern(iValue);
+
+    return 0;
+}
+///////////////////////////////////////////////////////
+//
+//  Input :     2
+//  Output :    $   *   $   *
+//
+///////////////////////////////////////////////////////
+
+

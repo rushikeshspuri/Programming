@@ -1,0 +1,54 @@
+///////////////////////////////////////////////////////
+//
+//  Include required header files
+//
+///////////////////////////////////////////////////////
+#include<stdio.h>
+
+///////////////////////////////////////////////////////
+//
+//  Function name : DisplayNo
+//  Input :         Integer
+//  Output :        void
+//  Description :   accept number & print till that number
+//  Date :          27/05/2026
+//  Author :        Rushikesh Puri
+//
+///////////////////////////////////////////////////////
+void DisplayNo(int iNo)
+{
+    int iCnt = 0;
+
+    for(iCnt = 1; iCnt <= iNo; iCnt++)
+    {
+        printf("%d\t",iCnt);
+
+    }
+
+}
+///////////////////////////////////////////////////////
+//
+//  Application to accept number & print till that number
+//
+///////////////////////////////////////////////////////
+
+int main ()
+{
+    int iValue = 0;
+
+    printf("Enter number\n");
+    scanf("%d",&iValue);
+
+    DisplayNo(iValue);
+
+    return 0;
+}
+///////////////////////////////////////////////////////
+//
+//  Input :     8
+//  Output :  1 2 3 4 5 6 7 8  
+//
+///////////////////////////////////////////////////////
+
+
+

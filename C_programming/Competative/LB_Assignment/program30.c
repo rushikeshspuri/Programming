@@ -1,0 +1,53 @@
+///////////////////////////////////////////////////////
+//
+//  Include required header files
+//
+///////////////////////////////////////////////////////
+#include<stdio.h>
+///////////////////////////////////////////////////////
+//
+//  Function name : DisplayTable
+//  Input :         Integer
+//  Output :        void
+//  Description :   Display Table of given Number
+//  Date :          29/05/2025
+//  Author :        Rushikesh Puri
+//
+///////////////////////////////////////////////////////
+void DispalyTable(int iNo)
+{
+    int iCnt = 0;
+    
+
+    for (iCnt = 1; iCnt <= 10; iCnt++)
+    {
+        printf("%d\t", iNo * iCnt);
+    }
+}
+///////////////////////////////////////////////////////////
+//
+//  Application to perform Display Table of given Number
+//
+///////////////////////////////////////////////////////////
+
+int main ()
+{
+    int iValue = 0;
+
+    printf("Enter Number\n");
+    scanf("%d",&iValue);
+
+    DispalyTable(iValue);
+
+    return 0;
+}
+///////////////////////////////////////////////////////
+//
+//  Input :  2   
+//  Output :  2 4 6 8 10 12  14 16 18 20  
+//
+///////////////////////////////////////////////////////
+
+
+
+

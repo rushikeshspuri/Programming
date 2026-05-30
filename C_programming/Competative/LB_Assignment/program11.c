@@ -1,0 +1,61 @@
+
+///////////////////////////////////////////////////////
+//
+//  Include required header files
+//
+///////////////////////////////////////////////////////
+#include<stdio.h>
+
+///////////////////////////////////////////////////////
+//
+//  Function name : PrintEven
+//  Input :         Integer  
+//  Output :        void
+//  Description :   Application To Print Even Number 
+//  Date :          22/05/2026
+//  Author :        Rushikesh Puri
+//
+///////////////////////////////////////////////////////
+void PrintEven(int iNo)
+{
+    if(iNo <= 0)
+    {
+        printf("Invalid Input");
+        return ;
+    }
+
+    int iCnt = 1;
+    while (iCnt <= iNo)
+    {
+        printf("%d\t", 2 * iCnt);
+        iCnt++;
+    }
+
+}
+///////////////////////////////////////////////////////
+//
+//  Application to print Even Number
+//
+///////////////////////////////////////////////////////
+
+int main ()
+{
+    int iValue = 0;
+    
+    printf("Enter your number\n");
+    scanf("%d",&iValue);
+
+    PrintEven(iValue);
+
+    return 0;
+}
+////////////////////////////////////////////////////////////////////////////////////////////
+//
+//  Input  :     10
+//  Output :    2       4       6       8       10      12      14      16      18      20
+//
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
