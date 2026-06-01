@@ -24,6 +24,7 @@ int Divide (int iNo1 , int iNo2)
     {
         return -1;
     }
+    
     iAns = iNo1/iNo2;
 
     return iAns;
