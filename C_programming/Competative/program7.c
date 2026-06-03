@@ -10,7 +10,7 @@
 //  Function name : Display
 //  Input   : Integer
 //  Output  : None
-//  Description : Check whether number is Divisible by 5
+//  Description :   Application to accept integer and print *
 //  Date : 24/05/2026
 //  Author : Rushikesh Puri
 //
