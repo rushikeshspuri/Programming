@@ -5,18 +5,18 @@
 
 typedef int BOOL;
 
-BOOL Check(int Arr[], int iLength)
+BOOL Check(int Arr[],int iLength,int iValue)
 {
     int iCnt = 0;
 
-    for(iCnt = 0; iCnt < iLength; iCnt++)
+    for (iCnt = 0; iCnt < iLength; iCnt++)
     {
-        if(Arr[iCnt] == 11)
+        if(Arr[iCnt] == iValue)
         {
-            break;
-        }
+            break;;
+        }   
     }
-
+    
     if(iCnt == iLength)
     {
         return FALSE;
@@ -25,12 +25,13 @@ BOOL Check(int Arr[], int iLength)
     {
         return TRUE;
     }
+    
 }
 
 int main ()
 {
     int *p = NULL;
-    int iSize = 0 , iCnt = 0 ;
+    int iSize = 0 , iCnt = 0 ,  iNo = 0;
     BOOL bRet = FALSE;
 
     printf("Enter number of Elements\n");
@@ -50,17 +51,20 @@ int main ()
         scanf("%d",&p[iCnt]);
     }
 
-    bRet = Check(p,iSize);
+    printf("Enter the Number you want to Search : \n");
+    scanf("%d",&iNo);
+    
+    bRet = Check(p,iSize,iNo);
 
     if(bRet == TRUE)
     {
-        printf("11 is present\n");
+        printf("Number is Present \n");
     }
-    else 
+    else
     {
-        printf("11 is not present\n");
+        printf("Number is Absent\n");
     }
-
+   
     free(p);
 
     return 0;

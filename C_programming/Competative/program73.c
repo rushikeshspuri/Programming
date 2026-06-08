@@ -1,37 +1,28 @@
 #include<stdio.h>
 #include<stdlib.h>
-#define TRUE 1
-#define FALSE 0
 
-typedef int BOOL;
-
-BOOL Check(int Arr[], int iLength)
+int FirstOcc(int Arr[],int iLength,int iValue)
 {
-    int iCnt = 0;
+    int iCnt = 0 , iIndex = -1;
 
-    for(iCnt = 0; iCnt < iLength; iCnt++)
+    for (iCnt = 0; iCnt < iLength; iCnt++)
     {
-        if(Arr[iCnt] == 11)
+        if(Arr[iCnt] == iValue)
         {
+            iIndex = iCnt;
             break;
         }
+        
     }
 
-    if(iCnt == iLength)
-    {
-        return FALSE;
-    }
-    else
-    {
-        return TRUE;
-    }
+    return iIndex;
+    
 }
 
 int main ()
 {
     int *p = NULL;
-    int iSize = 0 , iCnt = 0 ;
-    BOOL bRet = FALSE;
+    int iSize = 0 , iCnt = 0 , iRet = 0 , iNo = 0;
 
     printf("Enter number of Elements\n");
     scanf("%d",&iSize);
@@ -50,17 +41,20 @@ int main ()
         scanf("%d",&p[iCnt]);
     }
 
-    bRet = Check(p,iSize);
+    printf("Enter the Number you want to Search : \n");
+    scanf("%d",&iNo); 
 
-    if(bRet == TRUE)
-    {
-        printf("11 is present\n");
-    }
-    else 
-    {
-        printf("11 is not present\n");
-    }
+    iRet = FirstOcc(p,iSize,iNo);
 
+    if(iRet == -1)
+    {
+        printf("There is no such Number %d",iRet);
+    }
+    else
+    {
+        printf("First Occurrence of number is %d",iRet);
+    }
+   
     free(p);
 
     return 0;

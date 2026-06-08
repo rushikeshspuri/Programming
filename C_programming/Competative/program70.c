@@ -1,37 +1,26 @@
 #include<stdio.h>
 #include<stdlib.h>
-#define TRUE 1
-#define FALSE 0
 
-typedef int BOOL;
-
-BOOL Check(int Arr[], int iLength)
+int Frequency(int Arr[],int iLength)
 {
-    int iCnt = 0;
+    int iCnt = 0 , iCount = 0;
 
-    for(iCnt = 0; iCnt < iLength; iCnt++)
+    for (iCnt = 0; iCnt < iLength; iCnt++)
     {
         if(Arr[iCnt] == 11)
         {
-            break;
-        }
+            iCount++;
+        }   
     }
-
-    if(iCnt == iLength)
-    {
-        return FALSE;
-    }
-    else
-    {
-        return TRUE;
-    }
+    
+    return iCount;
+    
 }
 
 int main ()
 {
     int *p = NULL;
-    int iSize = 0 , iCnt = 0 ;
-    BOOL bRet = FALSE;
+    int iSize = 0 , iCnt = 0 , iRet = 0;
 
     printf("Enter number of Elements\n");
     scanf("%d",&iSize);
@@ -50,17 +39,10 @@ int main ()
         scanf("%d",&p[iCnt]);
     }
 
-    bRet = Check(p,iSize);
+    iRet = Frequency(p,iSize);
 
-    if(bRet == TRUE)
-    {
-        printf("11 is present\n");
-    }
-    else 
-    {
-        printf("11 is not present\n");
-    }
-
+    printf("%d",iRet);
+    
     free(p);
 
     return 0;

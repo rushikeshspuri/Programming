@@ -1,37 +1,38 @@
 #include<stdio.h>
 #include<stdlib.h>
-#define TRUE 1
-#define FALSE 0
 
-typedef int BOOL;
 
-BOOL Check(int Arr[], int iLength)
+int Difference(int Arr[], int iLength)
 {
-    int iCnt = 0;
+    int iCnt = 0 ; int iMin = 0 , iMax = 0 , iDiff = 0;
+    iMin = Arr[0];
 
     for(iCnt = 0; iCnt < iLength; iCnt++)
     {
-        if(Arr[iCnt] == 11)
+        if(Arr[iCnt] < iMin)
         {
-            break;
+            iMin = Arr[iCnt];
         }
     }
+    
+    for(iCnt = 0; iCnt < iLength; iCnt++)
+    {
+        if(Arr[iCnt] > iMax)
+        {
+            iMax = Arr[iCnt];
+        }
+    }
+   
 
-    if(iCnt == iLength)
-    {
-        return FALSE;
-    }
-    else
-    {
-        return TRUE;
-    }
+    iDiff = iMax - iMin ;
+    return iDiff;
 }
 
 int main ()
 {
     int *p = NULL;
     int iSize = 0 , iCnt = 0 ;
-    BOOL bRet = FALSE;
+    int iRet = 0;
 
     printf("Enter number of Elements\n");
     scanf("%d",&iSize);
@@ -50,17 +51,9 @@ int main ()
         scanf("%d",&p[iCnt]);
     }
 
-    bRet = Check(p,iSize);
-
-    if(bRet == TRUE)
-    {
-        printf("11 is present\n");
-    }
-    else 
-    {
-        printf("11 is not present\n");
-    }
-
+    iRet = Difference(p,iSize);
+    
+    printf("Difference  is  : %d ",iRet);
     free(p);
 
     return 0;
