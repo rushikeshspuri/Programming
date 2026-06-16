@@ -6,9 +6,9 @@ void Display(int iRow, int iCol)
 
    for(i = 1; i <= iRow; i++)
     {
-        for(j = 1; j <= iCol; j++)
+        for(j = iCol; j >= 1; j--)
         {
-            printf("*\t");
+            printf("%d\t",j);
         }
          printf("\n");
     }

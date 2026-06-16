@@ -3,14 +3,15 @@
 void Display(int iRow, int iCol)
 {
    int i = 0 , j = 0;
+   char ch = '\0';
 
    for(i = 1; i <= iRow; i++)
     {
-        for(j = 1; j <= iCol; j++)
+        for(j = 1 , ch = 'A'; j <= iCol; j++ , ch++)
         {
-            printf("*\t");
+           printf("%c\t",ch);
         }
-         printf("\n");
+        printf("\n");
     }
    
 }
