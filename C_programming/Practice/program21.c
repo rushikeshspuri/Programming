@@ -7,7 +7,7 @@ int CalculateTicketPrice(int iAge)
     {
         return -1;
     }
-
+ 
     if(iAge >= 0 && iAge <=5)
     {
         return 0;
