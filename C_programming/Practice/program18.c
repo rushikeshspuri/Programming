@@ -7,7 +7,7 @@ int CalculateTicketPrice(int iAge)
         return 0;
     }
     else if(iAge >= 6 && iAge <= 18)
-    {
+    { 
         return 500;
     }
     else if(iAge >= 19 && iAge <= 50)
