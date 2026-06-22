@@ -7,7 +7,7 @@
         Perform addition of No1 & No2
         Display the result
     STOP
-*/
+*/ 
 
 #include<stdio.h>
 
