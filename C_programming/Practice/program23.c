@@ -8,7 +8,7 @@ int CalculateTicketPrice(int iAge)
     // Input Filter
     if(iAge < 0)
     {
-        return AGE_INVAID;
+        return AGE_INVAID;      
     }
 
     if(iAge >= 0 && iAge <=5)
