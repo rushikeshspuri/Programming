@@ -12,7 +12,7 @@ void CheckEvenOdd(int iNo)
     }
     else
     {
-        printf("Number is Odd\n");
+        printf("Number is Odd\n");  
     }
 }
 
