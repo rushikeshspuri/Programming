@@ -7,7 +7,7 @@ int CalculateTicketPrice(int iAge)
     {
         printf("Invalid Input\n");
         return 0;
-    }
+    } 
 
     if(iAge >= 0 && iAge <=5)
     {
