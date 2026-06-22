@@ -7,5 +7,5 @@ int main ()
     printf("%d\n",iArr);    // Address of First Element
     printf("%d\n",&iArr);   // Address of Whole Array
     printf("%d\n",&iArr[0]);// Address of First Element
-    return 0;
+    return 0; 
 }
