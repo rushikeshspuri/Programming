@@ -11,7 +11,7 @@ void Display (int iNo)
     {
         printf("%d\t",iCnt);
     }
-
+ 
     printf("\n");
 
 }
