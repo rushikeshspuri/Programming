@@ -8,7 +8,7 @@ int main ()
     while ( iCnt >= 1)
     {
         printf("%d\t",iCnt);
-        iCnt --;
+        iCnt --; 
     }
     
     return 0;
