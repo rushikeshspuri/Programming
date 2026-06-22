@@ -6,7 +6,7 @@ void Display(int iNo)
  
     // Updator
     if(iNo < 0)
-    {
+    { 
         iNo = -iNo;
     }
 
