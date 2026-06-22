@@ -5,7 +5,7 @@ int iArr[7];
 
 int main ()
 {
-   
+    
 
     iArr[0] = 10;
     iArr[3] = 20;
