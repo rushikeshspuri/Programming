@@ -7,7 +7,7 @@ int main ()
     
     for(iCnt = 0; iCnt < 5; iCnt++)
     {
-        printf("%d\n",Arr[iCnt]);
+        printf("%d\n",Arr[iCnt]); 
     }    
     return 0;
 }
