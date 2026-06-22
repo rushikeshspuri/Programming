@@ -9,7 +9,7 @@ int main()
     printf("%d\n",iDigit);
     iNo = iNo / 10;
 
-    iDigit = iNo % 10;
+    iDigit = iNo % 10; 
     printf("%d\n",iDigit);
     iNo = iNo / 10;
 
