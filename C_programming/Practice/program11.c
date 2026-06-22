@@ -10,7 +10,7 @@
 
     START
         Accept number as No
-        Divide No by 2
+        Divide No by 2 
         If remainder is 0
             then print as Even
         otherwise
