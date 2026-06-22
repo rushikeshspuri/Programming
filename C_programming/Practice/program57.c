@@ -10,7 +10,7 @@ void Display (int iNo)
     for (iCnt = 1; iCnt <= iNo ; iCnt += 2)
     {
         printf("%d\t",iCnt);
-    }
+    } 
 
     printf("\n");
 
