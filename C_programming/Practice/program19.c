@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int CalculateTicketPrice(int iAge)
-{
+{ 
     // Input Updator
     if(iAge < 0)
     {
