@@ -12,7 +12,7 @@ int CheckEvenOdd(int iNo)
 int main()
 {
     int iValue = 0;
-    int iRet = 0;
+    int iRet = 0; 
 
     printf("Enter number : \n");
     scanf("%d",&iValue);
