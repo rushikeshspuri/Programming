@@ -3,7 +3,7 @@
 int main()
 {
     float fValue1 = 0.0f;                   // To store first input
-    float fValue2 = 0.0f;                   // To store second input
+    float fValue2 = 0.0f;                   // To store second input 
     float fResult = 0.0f;                   // To store the result
 
     printf("Enter first number : \n");
