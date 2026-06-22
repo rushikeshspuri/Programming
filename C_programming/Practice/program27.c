@@ -6,7 +6,7 @@ int main()
     int iValue = 0;
 
     printf("Enter the frequency : ");
-    scanf("%d", &iValue);
+    scanf("%d", &iValue);   
 
     for (iCnt = 1; iCnt <= iValue; iCnt++)
     {
