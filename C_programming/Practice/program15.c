@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdbool.h>
 
-bool CheckEvenOdd(int iNo)
+bool CheckEvenOdd(int iNo) 
 {
     int iRemainder = 0;
 
