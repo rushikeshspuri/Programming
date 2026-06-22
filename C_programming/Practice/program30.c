@@ -5,7 +5,7 @@ void Display(int iNo)
     int iCnt = 0;
  
     // Filter
-    if(iNo < 0)
+    if(iNo < 0) 
     {
         printf("Invalid Input\n");
         return;
