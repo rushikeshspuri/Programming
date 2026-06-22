@@ -5,7 +5,7 @@ int main()
     // Sequance
     
     printf("Jay Ganesh...\n");
-    printf("Jay Ganesh...\n");
+    printf("Jay Ganesh...\n");   
     printf("Jay Ganesh...\n");
     printf("Jay Ganesh...\n");
         
