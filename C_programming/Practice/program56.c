@@ -1,7 +1,7 @@
 // Input  : 5
 // Output : 1 2 3 4
 
-#include<stdio.h>
+#include<stdio.h> 
 
 void Display (int iNo)
 {
