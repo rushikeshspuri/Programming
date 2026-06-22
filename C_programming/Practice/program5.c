@@ -5,7 +5,7 @@
         Accept first number as No1
         Accept second number as No2
         Perform addition of No1 & No2
-        Display the result
+        Display the result 
     STOP
 */
 
