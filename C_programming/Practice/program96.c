@@ -9,7 +9,7 @@ int main ()
     iArr[3] = 20;
     iArr[6] = 30;
 
-    printf("%d\n",iArr[0]);
+    printf("%d\n",iArr[0]); 
     printf("%d\n",iArr[3]);
     printf("%d\n",iArr[6]);
     
