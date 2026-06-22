@@ -10,7 +10,7 @@ void DisplayDigits(int iNo)
         printf("%d\n",iDigit);
         iNo = iNo / 10;
     }
-}
+} 
 
 
 int main()
