@@ -16,7 +16,7 @@
 //  Author :        Rushikesh Puri
 //
 ///////////////////////////////////////////////////////
-int CountOdd(int iNo)
+int CountOdd(int iNo) 
 {
     int iDigit = 0, iCnt = 0;
 
