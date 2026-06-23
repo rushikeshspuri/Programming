@@ -7,7 +7,7 @@
 
 ///////////////////////////////////////////////////////
 //
-//  Function name : RectArea
+//  Function name : RectArea 
 //  Input :         Float, Float
 //  Output :        Double
 //  Description :   Calculate area of rectangle
