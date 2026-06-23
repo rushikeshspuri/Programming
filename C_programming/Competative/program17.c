@@ -11,7 +11,7 @@
 //  Output   :       Output   
 //  Description :    To Display Decrasing factors
 //  Date :          24/05/2026
-//  Author :        Rushikesh Puri
+//  Author :        Rushikesh Puri 
 //
 ///////////////////////////////////////////////////////
 int FactRev(int iNo)
