@@ -7,7 +7,7 @@
 
 //////////////////////////////////////////////////////////////////////////////////////////////
 //
-//  Function name : Display
+//  Function name : Display 
 //  Input   : Integer , Integer
 //  Output  : None
 //  Description : accept two numbers and print first number in second number of time
