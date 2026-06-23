@@ -7,7 +7,7 @@
 ///////////////////////////////////////////////////////
 //
 //  Function name : DisplayOdd
-//  Input :         Integer
+//  Input :         Integer 
 //  Output :        Void 
 //  Description :   to Display Odd Numbers
 //  Date :          29
