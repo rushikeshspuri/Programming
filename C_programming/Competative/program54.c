@@ -11,7 +11,7 @@
 //  Input :         Integer, Integer
 //  Output :        Integer
 //  Description :   Calculate sum of numbers
-//                  between given range
+//                  between given range 
 //  Date :          29/05/2026
 //  Author :        Rushikesh Puri
 //  Time Complexity : O(N)
