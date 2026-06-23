@@ -10,7 +10,7 @@
 //  Function name : DisplayNo
 //  Input :         Integer
 //  Output :        void
-//  Description :   accept number & print till that number
+//  Description :   accept number & print till that number 
 //  Date :          27/05/2026
 //  Author :        Rushikesh Puri
 //
