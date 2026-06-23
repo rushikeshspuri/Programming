@@ -6,7 +6,7 @@
 #include<stdio.h>
 ///////////////////////////////////////////////////////
 //
-//  Function name : DisplaytableRev
+//  Function name : DisplaytableRev 
 //  Input :        Integer 
 //  Output :       void
 //  Description :   Display Table of given Number in reverse
