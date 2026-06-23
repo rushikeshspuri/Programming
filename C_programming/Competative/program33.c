@@ -13,7 +13,7 @@
 #define Dollar_Rate 70
 
 ///////////////////////////////////////////////////////
-//
+// 
 //  Function name : DollarToINR
 //  Input :         Integer
 //  Output :        Integer
