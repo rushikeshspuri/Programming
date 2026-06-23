@@ -11,7 +11,7 @@
 //  Input :         Integer
 //  Output :        Integer
 //  Description :   Multiplication of Factors
-//  Date :          24/05/2026
+//  Date :          24/05/2026 
 //  Author :        Rushikesh Puri
 //
 ///////////////////////////////////////////////////////
