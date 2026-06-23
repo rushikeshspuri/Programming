@@ -8,7 +8,7 @@
 //
 //  Function name : DiffFact
 //  Input :         Integer
-//  Output :        Integer 
+//  Output :        Integer  
 //  Description :   Difference between Summetion of Factors & NonFactors 
 //  Date :          29
 //  Author :        Rushikesh Puri
