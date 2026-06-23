@@ -13,7 +13,7 @@
 //  Description :   to accept Number and print small , medium ,large 
 //                  based on < 50 , 50 >  
 //  Date :          29/05/2026
-//  Author :        Rushikesh Puri
+//  Author :        Rushikesh Puri 
 //  Time Complexictiy : O(1)
 //
 ///////////////////////////////////////////////////////////////////////////
