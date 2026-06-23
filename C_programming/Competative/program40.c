@@ -8,7 +8,7 @@
 ///////////////////////////////////////////////////////
 //
 //  Function name : FhtoCs
-//  Input :         Float
+//  Input :         Float 
 //  Output :        Double
 //  Description :   Convert Fahrenheit temperature
 //                  into Celsius
