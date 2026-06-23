@@ -13,7 +13,7 @@
 //  Description :   Calculate sum of even numbers
 //                  between given range
 //  Date :          29/05/2026
-//  Author :        Rushikesh Puri
+//  Author :        Rushikesh Puri 
 //  Time Complexity : O(N)
 //
 ///////////////////////////////////////////////////////
