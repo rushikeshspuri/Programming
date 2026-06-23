@@ -7,7 +7,7 @@
 
 ///////////////////////////////////////////////////////
 //
-//  Function name : SquareMeter
+//  Function name : SquareMeter 
 //  Input :         Integer
 //  Output :        Double
 //  Description :   Convert square feet into
