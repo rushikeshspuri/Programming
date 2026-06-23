@@ -8,7 +8,7 @@
 ///////////////////////////////////////////////////////
 //
 //  Function name : CountFrequency
-//  Input :         Integer
+//  Input :         Integer 
 //  Output :        Integer
 //  Description :   Count frequency of digit 2
 //                  from given number
