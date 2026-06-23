@@ -9,7 +9,7 @@
 //
 //  Function name : RangeDisplayEven
 //  Input :         Integer, Integer
-//  Output :        void
+//  Output :        void 
 //  Description :   Display even numbers
 //                  between given range
 //  Date :          29/05/2026
