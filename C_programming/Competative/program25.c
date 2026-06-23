@@ -8,7 +8,7 @@
 //
 //  Function name : DisplayMultiple
 //  Input :         Integer
-//  Output :        void
+//  Output :        void 
 //  Description :   Accept N & Display 5 Multiple
 //  Date :          28/05/206
 //  Author :        Rushikesh Puri
