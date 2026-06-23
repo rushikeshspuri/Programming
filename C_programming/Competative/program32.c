@@ -12,7 +12,7 @@
 //  Output :        void
 //  Description :   Display * and # patterns
 //  Date :          29/05/2026
-//  Author :        Rushikesh Puri
+//  Author :        Rushikesh Puri 
 //
 ///////////////////////////////////////////////////////
 void DisplayPatterns(int iNo)
