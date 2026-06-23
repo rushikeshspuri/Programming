@@ -7,7 +7,7 @@
 
 ////////////////////////////////////////////////////
 //
-//  Function name : Divide
+//  Function name : Divide 
 //  Input   : Integer
 //  Output  : Integer
 //  Description : Perform Division of 2 numbers
