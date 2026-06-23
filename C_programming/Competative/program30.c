@@ -7,7 +7,7 @@
 ///////////////////////////////////////////////////////
 //
 //  Function name : DisplayTable
-//  Input :         Integer
+//  Input :         Integer 
 //  Output :        void
 //  Description :   Display Table of given Number
 //  Date :          29/05/2025
