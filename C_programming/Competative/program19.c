@@ -8,7 +8,7 @@
 ///////////////////////////////////////////////////////
 //
 //  Function name : SumNonFact
-//  Input :         Integer
+//  Input :         Integer 
 //  Output :        Integer
 //  Description :   To Display Summestion of NonFactors
 //  Date :          26/05/2026
