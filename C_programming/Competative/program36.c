@@ -7,7 +7,7 @@
 
 ///////////////////////////////////////////////////////
 //
-//  Function name : DiffFactorial
+//  Function name : DiffFactorial 
 //  Input :         Integer
 //  Output :        Integer
 //  Description :   Calculate difference between
