@@ -7,7 +7,7 @@
 
 ///////////////////////////////////////////////////////
 //
-//  Function name : FhtoCs
+//  Function name : FhtoCs 
 //  Input :         Float
 //  Output :        Double
 //  Description :   Convert Fahrenheit temperature
