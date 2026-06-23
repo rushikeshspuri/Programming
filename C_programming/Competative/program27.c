@@ -11,7 +11,7 @@
 //  Output :        void  
 //  Description :   Accept Single Number & print its word
 //  Date :          29/05/2026
-//  Author :        Rushikesh Puri
+//  Author :        Rushikesh Puri 
 //  Time Complexictiy : O(1)
 //
 ///////////////////////////////////////////////////////
