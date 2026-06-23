@@ -7,7 +7,7 @@
 ///////////////////////////////////////////////////////
 //
 //  Function name : Displaay
-//  Input :         Integer
+//  Input :         Integer 
 //  Output :        void
 //  Description :   Accept Single Number & print its word
 //  Date :          29/05/2026
