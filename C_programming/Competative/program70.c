@@ -8,7 +8,7 @@ int Frequency(int Arr[],int iLength)
     for (iCnt = 0; iCnt < iLength; iCnt++)
     {
         if(Arr[iCnt] == 11)
-        {
+        { 
             iCount++;
         }   
     }
