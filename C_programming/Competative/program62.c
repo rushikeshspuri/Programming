@@ -12,7 +12,7 @@ int Difference(int Arr[],int iLenght)
             iSumEven = iSumEven + Arr[iCnt] ;   
         }  
         else
-        {
+        { 
             iSumOdd = iSumOdd + Arr[iCnt];
         }
     }
