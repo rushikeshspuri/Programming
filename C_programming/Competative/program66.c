@@ -11,7 +11,7 @@ void Display(int Arr[],int iLenght)
         {
             printf("Multiples of 11 : %d\n", Arr[iCnt]);
         }
-    }
+    } 
 
 }
 
