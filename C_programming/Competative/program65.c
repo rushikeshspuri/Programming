@@ -14,7 +14,7 @@ void Display(int Arr[],int iLenght)
     }
 
 }
-
+ 
 int main ()
 {
     int *p = NULL , iSize = 0 , iCnt = 0;
