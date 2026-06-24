@@ -5,7 +5,7 @@ int CountEven(int Arr[],int iLength)
 {
     int iCnt = 0 , iCountEven = 0;
 
-    for (iCnt = 0; iCnt < iLength; iCnt++)
+    for (iCnt = 0; iCnt < iLength; iCnt++) 
     {
         if(Arr[iCnt] % 2 == 0)
         {
