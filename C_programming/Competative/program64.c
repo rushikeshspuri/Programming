@@ -8,7 +8,7 @@ void Display(int Arr[],int iLenght)
     for(iCnt = 0; iCnt < iLenght; iCnt++)
     {  
         if(Arr[iCnt] % 2 == 0 && Arr[iCnt] % 5 == 0)
-        {
+        { 
             printf("The Even Elements Divisible by 5 :%d\n",Arr[iCnt]);
         }
     }
