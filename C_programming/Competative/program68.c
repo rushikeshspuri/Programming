@@ -14,7 +14,7 @@ int Frequency(int Arr[],int iLength)
         else
         {
             iCountOdd++;
-        }
+        } 
         
     }
     iDifference = iCountEven - iCountOdd;
