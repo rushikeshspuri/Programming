@@ -10,7 +10,7 @@ BOOL Check(int Arr[], int iLength)
     int iCnt = 0;
 
     for(iCnt = 0; iCnt < iLength; iCnt++)
-    {
+    { 
         if(Arr[iCnt] == 11)
         {
             break;
