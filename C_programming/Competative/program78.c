@@ -18,7 +18,7 @@ int Minimum(int Arr[], int iLength)
 }
 
 int main ()
-{
+{ 
     int *p = NULL;
     int iSize = 0 , iCnt = 0 ;
     int iRet = 0;
