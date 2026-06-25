@@ -11,7 +11,7 @@ int Product(int Arr [],int iLength)
        {
            iProduct = iProduct * Arr[iCnt];
            iFlag = 1;
-       }
+       } 
     }
 
     if(iFlag = 0)
