@@ -12,7 +12,7 @@ void Digits(int Arr[], int iLength)
 
         while(temp != 0)
         {
-            int iDigit = temp % 10;
+            int iDigit = temp % 10; 
 
             if(iDigit == 3)
             {
