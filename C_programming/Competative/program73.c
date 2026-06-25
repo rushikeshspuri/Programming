@@ -18,7 +18,7 @@ int FirstOcc(int Arr[],int iLength,int iValue)
     return iIndex;
     
 }
-
+ 
 int main ()
 {
     int *p = NULL;
