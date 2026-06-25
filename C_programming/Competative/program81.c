@@ -10,7 +10,7 @@ void Digits(int Arr[], int iLength)
         int temp = Arr[iCnt];
         int iSum = 0;
 
-        while(temp != 0)
+        while(temp != 0) 
         {
             iSum = iSum + (temp % 10);
             temp = temp / 10;
