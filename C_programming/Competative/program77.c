@@ -7,7 +7,7 @@ int Maximum(int Arr[], int iLength)
     int iCnt = 0 ; int iMax = 0 ;
     iMax = Arr[0];
 
-    for(iCnt = 0; iCnt < iLength; iCnt++)
+    for(iCnt = 0; iCnt < iLength; iCnt++) 
     {
         if(Arr[iCnt] > iMax)
         {
