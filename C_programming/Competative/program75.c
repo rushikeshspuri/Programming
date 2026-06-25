@@ -11,7 +11,7 @@ void Range(int Arr [],int iLength, int iStarting, int iEnding)
        {
             printf("%d\n",Arr[iCnt]);
        }
-    }
+    } 
 }
 int main()
 {
