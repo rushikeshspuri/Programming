@@ -14,7 +14,7 @@ BOOL Check(int Arr[],int iLength,int iValue)
         if(Arr[iCnt] == iValue)
         {
             break;;
-        }   
+        }    
     }
     
     if(iCnt == iLength)
