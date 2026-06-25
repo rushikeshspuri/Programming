@@ -9,7 +9,7 @@ int Frequency(int Arr[],int iLength,int iValue)
     {
         if(Arr[iCnt] == iValue)
         {
-            iCount++;
+            iCount++; 
         }   
     }
     
