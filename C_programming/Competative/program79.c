@@ -14,7 +14,7 @@ int Difference(int Arr[], int iLength)
             iMin = Arr[iCnt];
         }
     }
-    
+     
     for(iCnt = 0; iCnt < iLength; iCnt++)
     {
         if(Arr[iCnt] > iMax)
