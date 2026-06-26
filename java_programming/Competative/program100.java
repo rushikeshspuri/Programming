@@ -5,7 +5,7 @@ class Logic
        int iCnt = 0 , iSum = 0;
        
        for(iCnt = 1; iCnt <= (num/2); iCnt++)
-       {
+       { 
            if(num % iCnt == 0)
            {
                 iSum += iCnt;
