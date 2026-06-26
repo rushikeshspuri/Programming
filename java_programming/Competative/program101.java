@@ -9,7 +9,7 @@ class Logic
             iDigit = num % 10;
             
             if(iDigit > iLarge)
-            {
+            { 
                 iLarge = iDigit;
             }
             num = num / 10;
