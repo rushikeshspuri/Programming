@@ -9,7 +9,7 @@ class Logic
             iDigit = num % 10;
             
             iPro = iPro * iDigit;
-
+ 
             num = num / 10;
         }
         System.out.println(iPro);
