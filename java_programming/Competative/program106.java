@@ -5,7 +5,7 @@ class Logic
         int iCnt = 0 , iFact = 0;
 
         for(iCnt = 1; iCnt <= num ; iCnt++)
-        {
+        { 
             if(num % iCnt == 0 )
             {
                 iFact++;
