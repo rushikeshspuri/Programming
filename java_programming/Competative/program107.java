@@ -6,7 +6,7 @@ class Logic
 
         for(iCnt = 1; iCnt <= num ; iCnt++)
         {
-            if(iCnt % 2 == 0 && iCnt % 3 == 0)
+            if(iCnt % 2 == 0 && iCnt % 3 == 0) 
             {
                 System.out.println(iCnt);
             }
