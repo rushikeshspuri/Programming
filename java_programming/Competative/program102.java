@@ -5,7 +5,7 @@ class Logic
         int iDigit = 0; int iSmall = 9;
        
         while(num > 0)
-        {
+        {   
             iDigit = num % 10;
             
             if(iDigit < iSmall)
