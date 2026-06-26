@@ -6,7 +6,7 @@ class Logic
         while(num != 0)
         {
             iDigit = num % 10;
-            iSum = iSum + iDigit;
+            iSum = iSum + iDigit;  
             num = num / 10;
         }
 
