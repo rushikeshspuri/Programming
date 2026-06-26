@@ -6,7 +6,7 @@ class Logic
 
         for(iCnt = 0; iCnt < num ; iCnt++)
         {
-            if(iCnt % 2 == 0)
+            if(iCnt % 2 == 0) 
             {
                 iEven++;
                 
