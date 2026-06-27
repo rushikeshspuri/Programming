@@ -5,7 +5,7 @@ class Logic
         int iDigit = 0 , iRev = 0 , iTemp = num;
         while(num != 0)
         {
-            iDigit = num % 10;
+            iDigit = num % 10; 
             iRev = (iRev * 10) + iDigit;
             num = num / 10;
         }
