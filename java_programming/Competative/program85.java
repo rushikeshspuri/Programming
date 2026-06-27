@@ -13,7 +13,7 @@ class Logic
         else 
         {
             System.out.println("Smaller Number is  : "+c);
-        }
+        } 
     }
 }
 
