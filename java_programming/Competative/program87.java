@@ -8,7 +8,7 @@ class Logic
         {
             System.out.println("Number is not Prime");
             return;
-        }
+        } 
         
         for(iCnt = 2; iCnt < num; iCnt++)
         {
