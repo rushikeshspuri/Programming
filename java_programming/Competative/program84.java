@@ -9,7 +9,7 @@ class Logic
         else
         {
             System.out.println("Greater Number is  : "+b);
-        }
+        } 
     }
 }
 
