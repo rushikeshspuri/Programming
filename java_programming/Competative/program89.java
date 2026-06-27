@@ -10,7 +10,7 @@ class Logic
                 System.out.println(iCnt);
             }
         }
-    }
+    } 
 }    
 class program89
 {
