@@ -8,7 +8,7 @@ class Logic
         {
             if(iCnt % 2 == 0)
             {
-                System.out.println(iCnt);
+                System.out.println(iCnt); 
             }
         }
     }
