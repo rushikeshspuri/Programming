@@ -11,7 +11,7 @@ class Logic
 }
 
 class program86
-{
+{ 
     public static void main(String A[]) 
     {
         Logic lobj = new Logic();
