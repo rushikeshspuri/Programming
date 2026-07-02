@@ -6,8 +6,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Focus-Logic%20Building-blue" alt="Logic Building" />
-  <img src="https://img.shields.io/badge/Language-C%20%7C%20C%2B%2B%20%7C%20Java%20%7C%20JavaScript-green" alt="Languages" />
-  <img src="https://img.shields.io/badge/Goal-Software%20Development-orange" alt="Goal" />
+  <img src="https://img.shields.io/badge/Languages-C%20%7C%20C%2B%2B%20%7C%20Java%20%7C%20JavaScript-green" alt="Languages" />
+  <img src="https://img.shields.io/badge/Purpose-Programming%20Practice-orange" alt="Programming Practice" />
 </p>
 
 ## About
@@ -18,10 +18,10 @@ This repository contains my programming practice, logic building exercises, and 
 
 | Folder | Description |
 | --- | --- |
-| `C_programming` | Logic building, procedural programming, pointers, arrays, strings, functions, and core C concepts |
+| `C_programming` | Logic building, procedural programming, arrays, strings, pointers, functions, bitwise operations, and core C concepts |
 | `C++_Programming` | Object-oriented programming, classes, inheritance, STL, and problem solving |
-| `Java_Programming` | Java fundamentals, OOP concepts, collections, and application-level programming |
-| `JavaScript_Programming` | JavaScript fundamentals, scripting, and web programming concepts |
+| `java_programming` | Java fundamentals, OOP concepts, collections, and application-level programming |
+| `Java_Script_Programming` | JavaScript fundamentals, scripting, and web programming concepts |
 
 ## Learning Approach
 
@@ -49,7 +49,7 @@ Improve
 
 ## Goal
 
-To develop strong programming fundamentals, improve logical thinking, and build a solid foundation for software development.
+To strengthen my programming fundamentals, improve logical thinking, and build a solid foundation for software development through consistent practice.
 
 ---
 
