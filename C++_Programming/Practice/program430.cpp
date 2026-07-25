@@ -1,0 +1,147 @@
+#include<iostream>
+using namespace std;
+
+#pragma pack (1)
+struct node
+{
+    int data;
+    struct node *next;
+};
+
+typedef struct node NODE;
+typedef struct node* PNODE;
+
+class SinglyCl
+{   
+    private:
+        PNODE first;
+        PNODE last;
+        int iCount; 
+    
+    public:
+        SinglyCl();
+        
+        void Display();
+        int Count();
+        
+        void InsertFirst(int iNo);
+        void InsertLast(int iNo);
+        void InsertAtPos(int iNo,int iPos);
+
+        void DeleteFirst();
+        void DeleteLast();
+        void DeleteAtPos(int iPos);
+    
+};
+
+SinglyCl::SinglyCl()
+{   
+    cout<<"Inside Constructor\n";
+    this -> first = NULL;
+    this -> last = NULL;
+    this -> iCount = 0;
+}
+
+void SinglyCl :: Display()
+{
+    PNODE temp = NULL;
+    
+
+    if(first == NULL && last == NULL)
+    {
+        return;
+    }
+
+    temp = first;
+
+    do
+    {
+        cout<<"| " << temp -> data <<" | ->" ;
+        temp = temp -> next;
+    } while (last -> next != temp);
+    
+    cout<<"\n";
+}
+
+int SinglyCl :: Count()
+{return iCount;}
+
+void SinglyCl :: InsertFirst(int iNo)
+{
+    PNODE newn = NULL;
+    newn = new NODE;
+    
+    newn -> data = iNo;
+    newn -> next = NULL;
+
+    if(first == NULL && last == NULL)
+    {
+        first = newn;
+        last = newn;
+    }
+    else
+    {
+        newn -> next = first;
+        first = newn;
+        
+    }
+
+    last -> next = first;
+    iCount++;
+}
+
+void SinglyCl :: InsertLast(int iNo)
+{
+    PNODE newn = NULL;
+    newn = new NODE;
+    
+    newn -> data = iNo;
+    newn -> next = NULL;
+
+    if(first == NULL && last == NULL)
+    {
+        first = newn;
+        last = newn;
+    }
+    else
+    {
+        last -> next = newn;
+        last = newn;
+    }
+    
+    last -> next = first;
+    iCount++;
+}
+
+void SinglyCl :: InsertAtPos(int iNo,int iPos)
+{}
+
+void SinglyCl :: DeleteFirst()
+{}
+
+void SinglyCl :: DeleteLast()
+{}
+
+void SinglyCl :: DeleteAtPos(int iPos)
+{}
+
+int main()
+{
+    SinglyCl sobj;
+    int iRet = 0;
+
+    sobj.InsertFirst(51);
+    sobj.InsertFirst(21);
+    sobj.InsertFirst(11);
+
+    sobj.InsertLast(101);
+    sobj.InsertLast(111);
+    sobj.InsertLast(121);
+    
+    sobj.Display();
+    iRet = sobj.Count();
+
+    cout<<"Number of nodes are : "<<iRet<<"\n";
+
+    return 0;
+}
