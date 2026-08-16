@@ -1,0 +1,34 @@
+#include<stdio.h>
+
+int CountCaptial(char *str)
+{
+   static int iCount = 0;
+    
+    if(*str != '\0')
+    {
+        if(*str >= 'A' && *str <= 'Z')
+        {
+            iCount++;
+        }
+        
+        str++;
+
+        CountCaptial(str);
+    }
+
+    return iCount;
+}
+
+int main()
+{  
+    char Arr[20] = {'\0'};
+    int iRet = 0;
+
+    printf("Enter the string : \n");
+    scanf("%[^'\n']s",Arr);
+
+    iRet = CountCaptial(Arr);
+    printf("number of Capital letters are : %d\n",iRet);
+
+    return 0;
+}
